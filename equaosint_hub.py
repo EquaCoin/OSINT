@@ -15,6 +15,7 @@ tools_data = {
         "People Search", "People Search",
         "Image/Video", "Image/Video",
         "Scientific Research",
+        "Environment",
         "Automation/CLI"
     ],
     "Tool Name": [
@@ -25,6 +26,7 @@ tools_data = {
         "FastPeopleSearch", "Lenso.ai",
         "ExifTool", "Google Earth Pro",
         "Sci-Bot.ru",
+        "RadiaVerse",
         "SpiderFoot CLI / Recon-ng / theHarvester"
     ],
     "Description": [
@@ -47,6 +49,7 @@ tools_data = {
         "Metadata extractor (images/documents) — CLI gold standard",
         "Geolocation & historical satellite imagery verification",
         "Academic & scientific paper search engine (Russian + global sources, fast indexing)",
+        "Real-time global environmental radiation monitoring map (crowdsourced + official sensors)",
         "Local CLI power tools (install once, run forever)"
     ],
     "Link": [
@@ -69,6 +72,7 @@ tools_data = {
         "https://exiftool.org/",
         "https://www.google.com/earth/versions/",
         "https://sci-bot.ru/",
+        "https://map.radiaverse.com/#5.21/42.14/12.88",
         "https://github.com/smicallef/spiderfoot"
     ],
     "Why Performant": [
@@ -91,9 +95,10 @@ tools_data = {
         "Industry standard for metadata forensics",
         "Historical imagery + measurement tools",
         "Fast academic search across Russian & international databases, no paywall",
+        "Live radiation levels from official + citizen sensors worldwide — essential for environmental OSINT",
         "Run locally with no limits once installed"
     ],
-    "Type": ["Web", "Self-hosted/Web", "CLI", "Web", "CLI", "Web", "CLI", "Web", "Web", "Web", "CLI", "Web", "Web", "Web", "Web", "Web", "CLI", "Desktop", "Web", "CLI"]
+    "Type": ["Web", "Self-hosted/Web", "CLI", "Web", "CLI", "Web", "CLI", "Web", "Web", "Web", "CLI", "Web", "Web", "Web", "Web", "Web", "CLI", "Desktop", "Web", "Web", "CLI"]
 }
 
 df = pd.DataFrame(tools_data)
