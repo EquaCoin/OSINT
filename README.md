@@ -23,6 +23,7 @@ Then open http://localhost:8507 in your browser.
 | People Search | 2 | FastPeopleSearch, Lenso.ai |
 | Image/Video | 2 | ExifTool, Google Earth Pro |
 | Scientific Research | 1 | **Sci-Bot.ru** |
+| Environment | 1 | **RadiaVerse** — [map.radiaverse.com](https://map.radiaverse.com/#5.21/42.14/12.88) |
 | Automation/CLI | 3 | SpiderFoot CLI, Recon-ng, theHarvester |
 
 ## 🛡️ Ethics
